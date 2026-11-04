@@ -1,0 +1,10 @@
+{
+  "name": "mach-duoc",
+  "private": true,
+  "scripts": {
+    "start": "node server/index.js"
+  },
+  "dependencies": {
+    "mysql2": "^3.15.3"
+  }
+}

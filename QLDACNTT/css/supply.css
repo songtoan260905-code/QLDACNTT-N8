@@ -1,0 +1,16 @@
+.cell-input {
+  width: 100%;
+  min-width: 88px;
+  border: 1px solid var(--line);
+  background: var(--card);
+  color: var(--text);
+  border-radius: 8px;
+  padding: 8px 10px;
+  font: inherit;
+}
+.supply-lines td { vertical-align: middle; }
+.supply-lines .total-line { margin-top: 14px; }
+
+@media (max-width: 720px) {
+  .cell-input { min-width: 72px; }
+}

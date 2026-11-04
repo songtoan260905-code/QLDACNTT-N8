@@ -1,0 +1,43 @@
+.inv-tabs { margin-bottom: 14px; }
+.inv-kpis {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+  margin-bottom: 14px;
+}
+.var-neg { color: var(--danger); font-weight: 700; }
+.var-pos { color: var(--ok); font-weight: 700; }
+.var-zero { color: var(--muted); }
+.count-input {
+  width: 88px;
+  border: 1px solid var(--line);
+  background: var(--card);
+  color: var(--text);
+  border-radius: 8px;
+  padding: 6px 8px;
+}
+.inv-warn { margin-bottom: 12px; }
+.inv-warn-row { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+.inv-warn-row input {
+  width: 96px;
+  border: 1px solid var(--line);
+  background: var(--card);
+  color: var(--text);
+  border-radius: 8px;
+  padding: 8px 10px;
+}
+.control textarea {
+  width: 100%;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  resize: vertical;
+  min-height: 72px;
+  outline: none;
+  padding: 8px 0;
+}
+.card + .toolbar { margin-top: 14px; }
+
+@media (max-width: 800px) {
+  .inv-kpis { grid-template-columns: 1fr; }
+}

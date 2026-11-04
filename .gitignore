@@ -1,0 +1,8 @@
+node_modules/
+.env
+.env.*
+!.env.example
+QLDACNTT/server/config.js
+*.log
+__pycache__/
+*.pyc
